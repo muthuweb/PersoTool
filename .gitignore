@@ -1,0 +1,88 @@
+# General
+*.log
+*.env
+*.crt
+*.key
+*.pem
+.DS_Store
+node_modules
+redis/data
+
+# Environment and Config
+.env
+./elastic/logs
+*.Identifier
+./app/public/composer.json
+/composer.lock
+/phpstan.neon
+restart_containers.sh
+
+# App and Public Directory
+app/public/.phpunit.cache
+app/public/node_modules
+app/public/public/build
+app/public/public/hot
+app/public/vendor
+app/public/.env
+app/public/.env.backup
+app/public/.env.production
+app/public/.phpactor.json
+app/public/.phpunit.result.cache
+app/public/Homestead.json
+app/public/Homestead.yaml
+app/public/auth.json
+app/public/npm-debug.log
+app/public/yarn-error.log
+app/public/.fleet
+app/public/.idea
+app/public/.vscode
+app/public/node_modules
+app/public/storage
+
+# Elastic and MySQL
+elastic/logs
+new_perso.mwb
+new_perso.mwb.bak
+
+mysql/data
+elastic/esdata1
+new_perso-bck.mwb
+
+# Frontend Directory
+data
+dist
+
+# Frontend Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Frontend Miscellaneous
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+# Cypress Directories
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Frontend Build Info
+*.tsbuildinfo
+smtp4dev-data/database.db
+*.db-shm
+*.db-wal
