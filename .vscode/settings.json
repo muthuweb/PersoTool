@@ -1,0 +1,19 @@
+{
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+    // "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": false,
+  // "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "vue"],
+  "cSpell.words": ["vuetify", "pinia", "axios", "keycloak", "KEYCLOAK"]
+}

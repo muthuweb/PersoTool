@@ -1,0 +1,169 @@
+/**
+ * vuetify.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+@use 'vuetify' with (
+  $font-size-root: 0.875rem,
+  $body-font-family: (
+    'DM Sans',
+    sans-serif
+  ),
+  $color-pack: true,
+  $typography: (
+    'h1': (
+      'size': 1.75rem,
+      'weight': 600,
+      'line-height': 1.75
+    ),
+    'h2': (
+      'size': 1.625rem,
+      'weight': 600,
+      'line-height': 1.65
+    ),
+    'h3': (
+      'size': 1.5rem,
+      'weight': 600,
+      'line-height': 1.5
+    ),
+    'h4': (
+      'size': 1.25rem,
+      'weight': 600,
+      'line-height': 1.5
+    ),
+    'h5': (
+      'size': 1.125rem,
+      'weight': 600,
+      'line-height': 1.25
+    ),
+    'h6': (
+      'size': 1rem,
+      'weight': 600,
+      'line-height': 1.25
+    ),
+    'body-1': (
+      'size': 1rem,
+      'weight': 500,
+      'line-height': 1.5
+    ),
+    'body-2': (
+      'size': 0.875rem,
+      'weight': 500,
+      'line-height': 1.425
+    )
+  )
+);
+
+$opacities: 100, 75, 64, 45, 24, 16, 12, 8, 4, 3, 0;
+
+.v-theme--light {
+  color-scheme: normal;
+  @each $opacity in $opacities {
+    --v-theme-primary--opacity-#{$opacity}: rgba(var(--v-theme-primary), #{calc($opacity / 100)});
+  }
+}
+
+.v-theme--dark {
+  color-scheme: dark;
+  @each $opacity in $opacities {
+    --v-theme-primary--opacity-#{$opacity}: rgba(var(--v-theme-primary), #{calc($opacity / 100)});
+  }
+}
+
+.bg-primary {
+  @each $opacity in $opacities {
+    &--opacity-#{$opacity} {
+      background-color: rgba(var(--v-theme-primary), #{calc($opacity / 100)}) !important;
+    }
+  }
+}
+
+.text-primary {
+  @each $opacity in $opacities {
+    &--opacity-#{$opacity} {
+      color: rgba(var(--v-theme-primary), #{calc($opacity / 100)}) !important;
+    }
+  }
+}
+
+.pointer-events- {
+  &auto {
+    pointer-events: auto;
+  }
+
+  &none {
+    pointer-events: none;
+  }
+}
+
+.flex-1 {
+  flex: 1 !important;
+}
+
+::-webkit-scrollbar {
+  width: 0.55rem;
+  height: 0.55rem;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 0.45rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(var(--v-theme-tertiary), 1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(var(--v-theme-neutral), 1);
+}
+
+html,
+body {
+  overflow-y: hidden;
+}
+
+.v-overlay {
+  &--active &__scrim {
+    opacity: 0.46 !important;
+  }
+}
+
+.v-btn {
+  border-radius: 6px;
+  text-transform: none;
+}
+
+.v-input,
+.v-chip {
+  font-weight: 500;
+}
+
+.v-btn,
+.v-chip {
+  &--variant-outlined {
+    border-color: var(--v-theme-primary--opacity-24);
+  }
+}
+
+.v-switch {
+  &__track {
+    background-color: var(--v-theme-primary--opacity-24);
+    height: 26px;
+    min-width: 48px;
+
+    &.bg-primary {
+      background-color: var(--v-theme-primary--opacity-45) !important;
+    }
+  }
+
+  &__thumb {
+    box-shadow: none !important;
+  }
+
+  .v-label {
+    padding-inline-start: 20px;
+    opacity: 1;
+  }
+}

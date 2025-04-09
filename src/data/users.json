@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "firstName": "John",
+      "LastName": "Doe",
+      "email": "john.doe@example.com",
+      "company": "ABC Corporation",
+      "department": "Marketing"
+    },
+    {
+      "firstName": "Jane",
+      "LastName": "Smith",
+      "email": "jane.smith@example.com",
+      "company": "XYZ Corp",
+      "department": "HR"
+    },
+    {
+      "firstName": "Michael",
+      "LastName": "Johnson",
+      "email": "michael.johnson@example.com",
+      "company": "Tech Solutions Ltd",
+      "department": "IT"
+    },
+    {
+      "firstName": "Emily",
+      "LastName": "Williams",
+      "email": "emily.williams@example.com",
+      "company": "Global Enterprises",
+      "department": "Finance"
+    },
+    {
+      "firstName": "David",
+      "LastName": "Brown",
+      "email": "david.brown@example.com",
+      "company": "ABC Corporation",
+      "department": "Sales"
+    },
+    {
+      "firstName": "Sarah",
+      "LastName": "Miller",
+      "email": "sarah.miller@example.com",
+      "company": "XYZ Corp",
+      "department": "Customer Support"
+    },
+    {
+      "firstName": "Robert",
+      "LastName": "Davis",
+      "email": "robert.davis@example.com",
+      "company": "Tech Solutions Ltd",
+      "department": "Research & Development"
+    },
+    {
+      "firstName": "Jennifer",
+      "LastName": "Wilson",
+      "email": "jennifer.wilson@example.com",
+      "company": "Global Enterprises",
+      "department": "Operations"
+    },
+    {
+      "firstName": "James",
+      "LastName": "Taylor",
+      "email": "james.taylor@example.com",
+      "company": "ABC Corporation",
+      "department": "Product Management"
+    },
+    {
+      "firstName": "Olivia",
+      "LastName": "Anderson",
+      "email": "olivia.anderson@example.com",
+      "company": "XYZ Corp",
+      "department": "Quality Assurance"
+    },
+    {
+      "firstName": "Daniel",
+      "LastName": "Clark",
+      "email": "daniel.clark@example.com",
+      "company": "Tech Solutions Ltd",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Sophia",
+      "LastName": "Garcia",
+      "email": "sophia.garcia@example.com",
+      "company": "Global Enterprises",
+      "department": "Legal"
+    },
+    {
+      "firstName": "Matthew",
+      "LastName": "Martinez",
+      "email": "matthew.martinez@example.com",
+      "company": "ABC Corporation",
+      "department": "Logistics"
+    },
+    {
+      "firstName": "Ava",
+      "LastName": "Rodriguez",
+      "email": "ava.rodriguez@example.com",
+      "company": "XYZ Corp",
+      "department": "Procurement"
+    },
+    {
+      "firstName": "Ethan",
+      "LastName": "Hernandez",
+      "email": "ethan.hernandez@example.com",
+      "company": "Tech Solutions Ltd",
+      "department": "Security"
+    },
+    {
+      "firstName": "Isabella",
+      "LastName": "Lopez",
+      "email": "isabella.lopez@example.com",
+      "company": "Global Enterprises",
+      "department": "Training"
+    },
+    {
+      "firstName": "William",
+      "LastName": "Gonzalez",
+      "email": "william.gonzalez@example.com",
+      "company": "ABC Corporation",
+      "department": "Customer Success"
+    }
+  ],
+  "headers": [
+    {
+      "align": "start",
+      "key": "firstName",
+      "sortable": false,
+      "title": "First name"
+    },
+    { "key": "LastName", "title": "Last name" },
+    { "key": "email", "title": "Email" },
+    { "key": "company", "title": "Company" },
+    { "key": "department", "title": "Department" },
+    { "key": "actions", "title": "Actions", "sortable": false }
+  ]
+}

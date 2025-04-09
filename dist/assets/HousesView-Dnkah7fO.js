@@ -1,0 +1,1 @@
+import{_ as s,a,b as n,r,e as c,a5 as l,o as p,f as d,a6 as i}from"./index-DDaYqyO0.js";const _={},f={class:"text-h4 font-weight-bold"};function m(o,e,u,h,$,x){const t=i("LocationGraph");return p(),a(l,null,[n("h3",f,[r(o.$slots,"title",{},()=>[e[0]||(e[0]=d(" Houses "))])]),c(t)],64)}const B=s(_,[["render",m]]);export{B as default};
