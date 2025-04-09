@@ -1,1 +1,0 @@
-import{_ as o,a as s,r as n,o as r,f as a}from"./index-DDaYqyO0.js";const c={},i={class:"text-h4 font-weight-bold"};function l(t,e){return r(),s("h3",i,[n(t.$slots,"title",{},()=>[e[0]||(e[0]=a(" Regions "))])])}const _=o(c,[["render",l]]);export{_ as default};
